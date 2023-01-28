@@ -1,0 +1,202 @@
+<main>
+    <style>
+    .carousel-inner {
+        padding: 1em;
+    }
+    .card {
+        margin: 0 0.7em;
+        /* box-shadow: 2px 6px 8px 0 rgba(22, 22, 26, 0.18); */
+        border-radius: 16px;
+        border: 3px #000 solid;
+    }
+    .carousel-control-prev,
+    .carousel-control-next {
+        background-color: #FFA836;
+    width: 6vh;
+    height: 6vh;
+    border-radius: 50%;
+    top: 50%;
+    transform: translateY(-50%);
+    }
+
+    .carousel-control-prev-icon:focus,
+    .carousel-control-prev-icon:hover {
+        color: #EFEAB4;
+    }
+    .card-title {
+        font-family: Unbounded;
+        color: #810280;
+    }
+    .card-text {
+        font-family: Montserrat;
+    }
+    @media (min-width: 768px) {
+    .carousel-item {
+        margin-right: 0;
+        flex: 0 0 33.333333%;
+        display: block;
+    }
+    .carousel-inner {
+        display: flex;
+    }
+    }
+    .card .img-wrapper {
+        height: 250px;
+        object-fit: cover; 
+        background-position: center;
+        border-radius: 16px;
+    }
+    
+    @media (max-width: 767px) {
+    .card .img-wrapper {
+        height: 17em;
+    }
+    }
+    </style>
+    <div id="carouselExampleControls" class="carousel" data-bs-ride="carousel" style="margin-top: -25px;">
+        <div class="carousel-inner">
+            <div class="carousel-item active">
+                <div class="card">
+                    <div class="container img-blog mt-3"><img src="https://images.unsplash.com/photo-1674797137244-43759d2870bd?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=379&q=80" class="d-block w-100 img-wrapper" alt="..."> </div>
+                    <div class="card-body">
+                        <h5 class="card-title">Card title 1</h5>
+                        <p class="card-text">Some quick example text to build on the card title and make up the bulk of the
+                            card's content.</p>
+                        <a type="button" href="#" class="btn-1 border border-3 border-dark rounded py-2 px-3 font-headline">Read More</a>
+                    </div>
+                </div>
+            </div>
+            <div class="carousel-item">
+                <div class="card">
+                    <div class="container img-blog mt-3"><img src="https://images.unsplash.com/photo-1674815720315-fdd64096d0d5?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxlZGl0b3JpYWwtZmVlZHw1NHx8fGVufDB8fHx8&auto=format&fit=crop&w=500&q=60" class="d-block w-100 img-wrapper" alt="..."> </div>
+                    <div class="card-body">
+                        <h5 class="card-title">Card title 2</h5>
+                        <p class="card-text">Some quick example text to build on the card title and make up the bulk of the
+                            card's content.</p>
+                        <a type="button" href="#" class="btn-1 border border-3 border-dark rounded py-2 px-3 font-headline">Read More</a>
+                    </div>
+                </div>
+            </div>
+            <div class="carousel-item">
+                <div class="card">
+                    <div class="container img-blog mt-3"><img src="https://images.unsplash.com/photo-1674795443496-98018df71033?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxlZGl0b3JpYWwtZmVlZHw4Mnx8fGVufDB8fHx8&auto=format&fit=crop&w=500&q=60" class="d-block w-100 img-wrapper" alt="..."> </div>
+                    <div class="card-body">
+                        <h5 class="card-title">Card title 3</h5>
+                        <p class="card-text">Some quick example text to build on the card title and make up the bulk of the
+                            card's content.</p>
+                        <a type="button" href="#" class="btn-1 border border-3 border-dark rounded py-2 px-3 font-headline">Read More</a>
+                    </div>
+                </div>
+            </div>
+            <div class="carousel-item">
+                <div class="card">
+                    <div class="container img-blog mt-3"><img src="https://images.unsplash.com/photo-1674674614545-f53dfddd3071?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxlZGl0b3JpYWwtZmVlZHwxMDd8fHxlbnwwfHx8fA%3D%3D&auto=format&fit=crop&w=500&q=60" class="d-block w-100 img-wrapper" alt="..."> </div>
+                    <div class="card-body">
+                        <h5 class="card-title">Card title 4</h5>
+                        <p class="card-text">Some quick example text to build on the card title and make up the bulk of the
+                            card's content.</p>
+                        <a type="button" href="#" class="btn-1 border border-3 border-dark rounded py-2 px-3 font-headline">Read More</a>
+                    </div>
+                </div>
+            </div>
+            <div class="carousel-item">
+                <div class="card">
+                    <div class="container img-blog mt-3"><img src="https://images.unsplash.com/photo-1674384864443-f00f78d64f47?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxlZGl0b3JpYWwtZmVlZHwxMjF8fHxlbnwwfHx8fA%3D%3D&auto=format&fit=crop&w=500&q=60" class="d-block w-100 img-wrapper" alt="..."> </div>
+                    <div class="card-body">
+                        <h5 class="card-title">Card title 5</h5>
+                        <p class="card-text">Some quick example text to build on the card title and make up the bulk of the
+                            card's content.</p>
+                        <a type="button" href="#" class="btn-1 border border-3 border-dark rounded py-2 px-3 font-headline">Read More</a>
+                    </div>
+                </div>
+            </div>
+            <div class="carousel-item">
+                <div class="card">
+                    <div class="container img-blog mt-3"><img src="https://images.unsplash.com/photo-1490971588422-52f6262a237a?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MTJ8fGZpbG18ZW58MHx8MHx8&auto=format&fit=crop&w=500&q=60" class="d-block w-100 img-wrapper" alt="..."> </div>
+                    <div class="card-body">
+                        <h5 class="card-title">Card title 6</h5>
+                        <p class="card-text">Some quick example text to build on the card title and make up the bulk of the
+                            card's content.</p>
+                        <a type="button" href="#" class="btn-1 border border-3 border-dark rounded py-2 px-3 font-headline">Read More</a>
+                    </div>
+                </div>
+            </div>
+            <!-- <div class="carousel-item">
+                <div class="card">
+                    <div class="container img-blog mt-3"><img src="..." class="d-block w-100 img-wrapper" alt="..."> </div>
+                    <div class="card-body">
+                        <h5 class="card-title">Card title 7</h5>
+                        <p class="card-text">Some quick example text to build on the card title and make up the bulk of the
+                            card's content.</p>
+                        <a type="button" href="#" class="btn-1 border border-3 border-dark rounded py-2 px-3 font-headline">Read More</a>
+                    </div>
+                </div>
+            </div>
+            <div class="carousel-item">
+                <div class="card">
+                    <div class="container img-blog mt-3"><img src="..." class="d-block w-100 img-wrapper" alt="..."> </div>
+                    <div class="card-body">
+                        <h5 class="card-title">Card title 8</h5>
+                        <p class="card-text">Some quick example text to build on the card title and make up the bulk of the
+                            card's content.</p>
+                        <a type="button" href="#" class="btn-1 border border-3 border-dark rounded py-2 px-3 font-headline">Read More</a>
+                    </div>
+                </div>
+            </div>
+            <div class="carousel-item">
+                <div class="card">
+                    <div class="container img-blog mt-3"><img src="..." class="d-block w-100 img-wrapper" alt="..."> </div>
+                    <div class="card-body">
+                        <h5 class="card-title">Card title 9</h5>
+                        <p class="card-text">Some quick example text to build on the card title and make up the bulk of the
+                            card's content.</p>
+                        <a type="button" href="#" class="btn-1 border border-3 border-dark rounded py-2 px-3 font-headline">Read More</a>
+                    </div>
+                </div>
+            </div> -->
+        </div>
+        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Previous</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Next</span>
+        </button>
+    </div>
+
+    <script>
+        var multipleCardCarousel = document.querySelector(
+            "#carouselExampleControls"
+        );
+        if (window.matchMedia("(min-width: 768px)").matches) {
+            var carousel = new bootstrap.Carousel(multipleCardCarousel, {
+            interval: false,
+            });
+            var carouselWidth = $(".carousel-inner")[0].scrollWidth;
+            var cardWidth = $(".carousel-item").width();
+            var scrollPosition = 0;
+            $("#carouselExampleControls .carousel-control-next").on("click", function () {
+            if (scrollPosition < carouselWidth - cardWidth * 4) {
+                scrollPosition += cardWidth;
+                $("#carouselExampleControls .carousel-inner").animate(
+                { scrollLeft: scrollPosition },
+                600
+                );
+            }
+            });
+            $("#carouselExampleControls .carousel-control-prev").on("click", function () {
+            if (scrollPosition > 0) {
+                scrollPosition -= cardWidth;
+                $("#carouselExampleControls .carousel-inner").animate(
+                { scrollLeft: scrollPosition },
+                600
+                );
+            }
+            });
+        } else {
+            $(multipleCardCarousel).addClass("slide");
+        }
+    </script>
+
+</main>

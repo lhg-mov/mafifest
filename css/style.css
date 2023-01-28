@@ -1,0 +1,234 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Unbounded:wght@200;300;400;500;600;700;800;900&display=swap');
+
+.navbar-toggler,
+.navbar-toggler:focus,
+.navbar-toggler:active,
+.navbar-toggler-icon:focus {
+    outline: none;
+    border: none;
+    box-shadow: none;
+}
+
+.btn-close,
+.btn-close:focus,
+.btn-close:active {
+    outline: none;
+    border: none;
+    box-shadow: none;
+}
+
+::-webkit-scrollbar {
+    width: 8px;
+  }
+  
+  /* Track */
+  ::-webkit-scrollbar-track {
+    background: #EFEAB4;
+    margin-right: 10px !important;
+  }
+  
+  /* Handle */
+  ::-webkit-scrollbar-thumb {
+    background: #810280;
+    border-radius: 10px;
+    -webkit-animation: gradientLine 5s ease infinite;
+    -moz-animation: gradientLine 5s ease infinite;
+    animation: gradientLine 5s ease infinite;
+  }
+  
+  /* Handle on hover */
+  ::-webkit-scrollbar-thumb:hover {
+    background: linear-gradient(5deg, rgba(129,2,128,1) 0%, rgba(255,168,54,1) 100%);
+  }
+
+.bg-transparent {
+    background-color: none !important;
+}
+
+.bg-cream {
+    background-color: #EFEAB4;
+}
+
+.bg-purple {
+    background-color: #810280;
+}
+
+.text-color-1 {
+    color: #810280;
+}
+
+.text-color-2 {
+    color: #EFEAB4;
+}
+
+.text-color-3 {
+    color: #FFA836;
+}
+
+.font-headline {
+    font-family: Unbounded;
+}
+
+.font-content {
+    font-family: Montserrat;
+    margin-top: 10px;
+}
+
+.basic-border {
+    border: 3px #000 solid;
+}
+
+.font-color-1 {
+    color: #2AABE1;
+}
+
+.bg-absline {
+    background-image: url("/./img/banner/bg-only-3-01.png");
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.bg-absline-2 {
+    background-image: url("/./img/banner/bg-only-4-01.png");
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.bg-white {
+    background-color: white;
+}
+
+.btn-1 {
+    transition: 100ms;
+    text-decoration: none;
+    color: #000;
+}
+
+.btn-1:hover {
+    transform: scale(1.05);
+    box-shadow: 5px 5px 0px 0px rgb(42,171,225);
+}
+
+.pg-indent-justify {
+    text-indent: 45px;
+    text-align: justify;
+}
+
+#loading {
+    position: fixed;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    opacity: 1;
+    background-color: #fff;
+    z-index: 99;
+}
+
+#loading-image {
+    z-index: 100;
+}
+
+/* ---------------------------------------------- */
+
+.bg-gradient {
+    background-image: linear-gradient(to right, #4facfe 0%, #00f2fe 100%);
+}
+
+.navbar-brand {
+    transition: 500ms;
+}
+
+.navbar-brand:hover {
+    transform: scale(1.15);
+}
+
+.page-link span {
+    transition: 100ms;
+}
+
+.page-link span:hover {
+    transform: scale(1.15);
+    color: #2AABE1;
+}
+
+#modalNavClose {
+    opacity: 1;
+}
+
+.register {
+    transition: 100ms;
+}
+
+.register:hover {
+    transform: scale(1.05);
+    box-shadow: 5px 5px 0px 0px rgb(42,171,225);
+}
+
+.nav2 {
+    border-radius: 0px 0px 10px 10px;
+    border-right: 3px #000 solid;
+    border-left: 3px #000 solid;
+    border-bottom: 3px #000 solid;
+}
+
+/* -------------------------------------------------- */
+
+.link-on-text a{
+    text-decoration: none;
+    transition: 100ms;
+}
+
+/* -------------------------------------------------- */
+
+#timer {
+    line-height: 1;
+    padding: 20px;
+    font-size: 40px;
+}
+  
+#timer span {
+    display: block;
+    font-size: 20px;
+}
+
+#info-countdown {
+    transition: 5000ms;
+}
+
+
+#time-is-up {
+    transition: 5000ms;
+}
+
+#end-of-regist {
+    transition: 5000ms;
+}
+
+#info-pk {
+    transition: 5000ms;
+}
+
+/* ---------------------------------------------------------- */
+
+@media (max-width: 767.98px) {
+    .bg-absline {
+        background-image: url("/./img/banner/bg-only-3-mobile-01.png");
+        background-position: center;
+        background-size: cover;
+        background-repeat: no-repeat;
+    }
+    
+    .bg-absline-2 {
+        background-image: url("/./img/banner/bg-only-4-mobile-01.png");
+        background-position: center;
+        background-size: cover;
+        background-repeat: no-repeat;
+    }
+}
+
