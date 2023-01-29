@@ -1,12 +1,4 @@
-
-  
-  {
-    "redirects": [
-      { 
-        "source": "/pages",
-        "destination": "https://mafifest.vercel.app/block", 
-        "permanent": true
-      }
-    ]
-  }
+{
+  "redirects": [{ "source": "/pages(.*)", "destination": "/block$1" }]
+}
 
