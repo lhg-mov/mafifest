@@ -1,4 +1,3 @@
 {
-  "redirects": [{ "source": "/pages(.*)", "destination": "/block$1" }]
+  "cleanUrls": true
 }
-
