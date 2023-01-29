@@ -1,4 +1,3 @@
-<main>
     <div class="reg-karya">
             
             
@@ -106,7 +105,13 @@
                 <div class="basic-border rounded-4 p-4 mt-3">
                     <h2 class="font-headline text-color-3 pb-4">Form Pendaftaran</h2>
                     <section id="ver-baca" style="display: block;">
-                        <p class="font-content">Sudah selesai belum bacanya? kalau sudah, lanjutkan untuk mengisi formulir ya.</p>
+                        <p class="font-content">Sudah selesai belum bacanya? Ada yang bingung nggak? kalau ada hubungi kami
+                            <span class="link-on-text">
+                                <a href="contact.html" class="font-color-1 fw-bold">
+                                    disini (Feel Free to Ask Guys!)
+                                  </a>
+                            </span>. Kalau sudah baca dan nggak ada yang dibingungin, lanjutkan untuk mengisi formulir ya.</p>
+
                         <hr class="my-3">
                         <form action="" class="needs-validation" novalidate>
                             <div class="form-check font-content">
@@ -135,47 +140,4 @@
 
     </div>
 
-    <script>
-        (() => {
-        'use strict'
-
-        // Fetch all the forms we want to apply custom Bootstrap validation styles to
-        const forms = document.querySelectorAll('.needs-validation')
-
-        // Loop over them and prevent submission
-        Array.from(forms).forEach(form => {
-            form.addEventListener('submit', event => {
-            if (!form.checkValidity()) {
-                event.preventDefault()
-                event.stopPropagation()
-            }
-
-            
-            form.classList.add('was-validated')
-            }, false)
-        })
-        })()
-    </script>
-    <script>
-        function myFunction() {
-        // Get the checkbox
-        var checkBox = document.getElementById("readCheck");
-        var verBaca = document.getElementById("ver-baca");
-        // Get the output text
-        var showForm = document.getElementById("form");
-        var invalid = document.getElementById("invalid");
-
-        // If the checkbox is checked, display the output text
-        if (checkBox.checked == true){
-            showForm.style.display = "block";
-            checkBox.style.display = "none";
-            verBaca.style.display = "none";
-        } else {
-            showForm.style.display = "none";
-            checkBox.style.display = "block";
-            invalid.style.display = "block";
-            verBaca.style.display = "block";
-        }
-        }
-    </script>
-</main>
+    

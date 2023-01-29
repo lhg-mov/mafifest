@@ -15,10 +15,10 @@
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.3/font/bootstrap-icons.css">
     
     <!-- MetaData -->
-    <title>About - MAFI Fest 2023</title> <!-- Judul Halaman / Website -->
+    <title>Malang Film Festival 2023</title> <!-- Judul Halaman / Website -->
 
-    <meta name="About - MAFI Fest 2023" content="Malang Film Festival (MAFI Fest) adalah festival film di Indonesia yang digagas oleh mahasiswa yang menjadi anggota Unit Kegiatan Mahasiswa Kelompok Studi Sinematografi Kine Klub Universitas Muhammadiyah Malang (UMM). Sejak pertama kali diselenggarakan pada tahun 2004, MAFI Fest awalnya menyandang nama MAFVIE FEST (Malang Film Video Festival) dengan mengkompetisikan kategori Video Klip, Film Dokumenter, dan Film Fiksi. Sejak itu, MAFI Fest telah mengalami berbagai perubahan hingga pada akhirnya sejak tahun 2013 MAFI Fest kini konsisten untuk mengompetisikan film pendek fiksi dan dokumenter karya pelajar dan mahasiswa di Indonesia."> <!-- Judul dan Deskripsi Yang Nantinya Akan Muncul di Pencarian Google -->
-    <meta name="title" content="About - MAFI Fest 2023"> <!-- Judul Yang Nantinya Akan Muncul di Pencarian Google -->
+    <meta name="Malang Film Festival 2023" content="Malang Film Festival (MAFI Fest) adalah festival film di Indonesia yang digagas oleh mahasiswa yang menjadi anggota Unit Kegiatan Mahasiswa Kelompok Studi Sinematografi Kine Klub Universitas Muhammadiyah Malang (UMM). Sejak pertama kali diselenggarakan pada tahun 2004, MAFI Fest awalnya menyandang nama MAFVIE FEST (Malang Film Video Festival) dengan mengkompetisikan kategori Video Klip, Film Dokumenter, dan Film Fiksi. Sejak itu, MAFI Fest telah mengalami berbagai perubahan hingga pada akhirnya sejak tahun 2013 MAFI Fest kini konsisten untuk mengompetisikan film pendek fiksi dan dokumenter karya pelajar dan mahasiswa di Indonesia."> <!-- Judul dan Deskripsi Yang Nantinya Akan Muncul di Pencarian Google -->
+    <meta name="title" content="Malang Film Festival 2023"> <!-- Judul Yang Nantinya Akan Muncul di Pencarian Google -->
     <meta name="description" content="Malang Film Festival (MAFI Fest) adalah festival film di Indonesia yang digagas oleh mahasiswa yang menjadi anggota Unit Kegiatan Mahasiswa Kelompok Studi Sinematografi Kine Klub Universitas Muhammadiyah Malang (UMM). Sejak pertama kali diselenggarakan pada tahun 2004, MAFI Fest awalnya menyandang nama MAFVIE FEST (Malang Film Video Festival) dengan mengkompetisikan kategori Video Klip, Film Dokumenter, dan Film Fiksi. Sejak itu, MAFI Fest telah mengalami berbagai perubahan hingga pada akhirnya sejak tahun 2013 MAFI Fest kini konsisten untuk mengompetisikan film pendek fiksi dan dokumenter karya pelajar dan mahasiswa di Indonesia."> <!-- Deskripsi Yang Nantinya Akan Muncul di Pencarian Google -->
     <meta name="keyword" content="Malang Film Festival, UMM, Festival Film, Festival Film UMM, Kineklub UMM, Kineklub, Mafifest 2023, Festival Film Pelajar"> <!-- Untuk Keyword Pencarian Google -->
     <link rel="shortcut icon" type="image/png" href="img/logo/logo-mafi-bet-res.png"> <!-- Icon yang akan muncul pada Pencarian Google -->
@@ -26,6 +26,8 @@
     <meta name="image" content="img\banner\Open-Sub-Gform-01-01.webp"> <!-- Gambar yang akan muncul pada Pencarian Google -->
     <meta property="og:image" content="img\banner\Open-Sub-Gform-01-01.webp"> <!-- Gambar yang akan muncul pada Pencarian Google dan WhatsApp -->
     <link rel="icon" href="img/logo/logo-mafi-bet-res.png"> <!-- Icon yang akan muncul pada Header Pencarian -->
+
+    <meta name="google-site-verification" content="mqof1ZAC1FLGg-yKHkZr21ISmC3qpUS8n2qfEwEsBr8" />
     
     <!-- JS Link -->
     <script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
@@ -35,7 +37,7 @@
 <body>
 
   <div id="loading">
-    <img id="loading-image" src="img/logo/logo-mafi-bet-res.png" alt="Loading..." width="75px"/>
+    <img id="loading-image" src="img/logo/logo-mafi-bet-res.png" alt="Loading..." width="75px" preload/>
   </div>
 
   <!-- Navigation -->
@@ -47,36 +49,64 @@
   <!-- End Navigasi 2 & Mobile -->
 
   <div class="container">
-    <h2 class="font-headline my-5 text-center basic-border p-3 rounded-3 bg-absline-2 text-white" preload>About <span class="text-color-3">MAFI Fest</span></h2>
-    <div id="aboutMAFIFest"></div>
+    <h2 class="font-headline my-5" preload>Apakah Ada yang Bisa <span class="text-color-1">Kami Bantu</span> ?</h2>
+    <div id="contactUs"></div>
   </div>
 
-  <br><br><br>
+  <br><br><br><br><br>
 
   <!-- Footer -->
   <div class="border-3 border-top border-dark bg-cream text-color-1">
     <div id="footer"></div>
   </div>
 
-    <!-- JS Link -->
+
+
+    <!-- JS Connect-->
+    
+    <!-- News JS -->
+    <script src="https://cdn.jsdelivr.net/npm/@splidejs/splide@3.6.12/dist/js/splide.min.js"></script>
+        <script>
+            var splide = new Splide('.splide', {
+                type: 'loop',
+                perPage: 3,
+                rewind: true,
+                breakpoints: {
+                    640: {
+                        perPage: 2,
+                        gap: '.7rem',
+                        height: '12rem',
+                    },
+                    480: {
+                        perPage: 1,
+                        gap: '.7rem',
+                        height: '12rem',
+                    },
+                },
+            });
+            splide.mount();
+        </script>
+    <!-- End News JS -->
+
+    <!-- JS Loading -->
     <script>
       $(window).on('load', function () {
         $('#loading').hide();
       }) 
     </script>
-    
+    <!-- JS End Loading -->
+
     <!-- JS Pages -->
     <script src="js/nav.js"></script>
     <script src="js/nav2-mobile.js"></script>
-    <script src="js/about-mafifest.js"></script>
+    <script src="js/contact.js"></script>
     <script src="js/img-lazyload.js"></script>
     <script src="js/footer.js"></script>
-
     <!-- End JS Pages -->
-    
+
     <script>
       $(document).ready(function() {
-
+  
       function checkWidth() {
         var windowWidth = $(window).width();
         if (windowWidth <= 960) {
@@ -88,12 +118,13 @@
         }
       }
       checkWidth();
-
+  
       $(window).resize(checkWidth);
       });
     </script>
-  
+    
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js" integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN" crossorigin="anonymous"></script>
+
 </body>
 
 </html>

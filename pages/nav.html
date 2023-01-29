@@ -1,0 +1,64 @@
+<nav class="navbar navbar-expand-lg border-bottom border-dark border-3 font-headline bg-white">
+  <div class="container">
+    <a class="navbar-toggler" data-bs-toggle="modal" data-bs-target="#exampleModal">
+      <img src="img/icon/menu-bar.png" alt="" srcset="" width="30px">
+    </a>
+
+    <a class="navbar-brand justify-content-lg-center" id="logo-mobile" href="index.html" style="display: none;"><img src="img/logo/logo-mafi-bet-res.png" preload alt="" srcset="" width="50px"></a>
+
+    <div class="collapse navbar-collapse d-lg-flex" id="navbarsExample11">
+      <section id="listOfPage">
+        <ul class="navbar-nav justify-content-lg-start" style="margin-left: -10px;">
+          <li class="nav-item">
+            <a class="nav-link page-link" aria-current="page" href="index.html"><span class="p-1">Home</span></a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link page-link" aria-current="page" href="about.html"><span class="p-1">About Us</span></a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link page-link" aria-current="page" href="index.html#news"><span class="p-1">News</span></a>
+          </li>
+        </ul>
+      </section>
+
+      <a class="navbar-brand mx-auto" href="index.html"><img src="img/logo/logo-mafi-bet-res.png" preload alt="" srcset="" width="50px"></a>
+      
+      <div class="justify-content-lg-end">
+        <a class="nav-link register border border-3 border-dark rounded py-2 px-3" href="registrasi-karya.html">
+          Daftarkan Karya Mu!
+        </a>
+      </div>
+    </div>
+  </div>
+</nav>
+
+  <script>
+    $(document).ready(function() {
+
+    function checkWidth() {
+      var windowWidth = $(window).width();
+      if (windowWidth <= 960) {
+          $("#nav2").hide();
+          $("#logo-mobile").show();
+      } else {
+          $("#nav2").show();
+          $("#logo-mobile").hide();
+      }
+    }
+    checkWidth();
+
+    $(window).resize(checkWidth);
+    });
+  </script>
+  
+ <script>
+     const li = document.querySelectorAll('.nav-link')[0]
+    li.addEventListener('click', (e)=> {
+        e.preventDefault()
+        alert('Home is Click')
+        window.location.href='/index.html'
+    })
+ </script>
+ 
+
+  <!-- End Mobile Navigation -->

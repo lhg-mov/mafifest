@@ -1,0 +1,103 @@
+<!-- Nav2 -->
+<div class="container position-relative" id="nav2">
+    <div class="nav2 bg-absline container lazyload" loading="lazy">
+      <ul class="nav justify-content-center container">
+        <li class="nav-item">
+          <a class="nav-link page-link-2 font-headline text-color-1 text-decoration-none" aria-current="page" href="https://kineklubumm.com"><span>Kine Klub UMM</span></a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link page-link-2 font-headline text-color-1 text-decoration-none" aria-current="page" href="juree.html"><span>Juree</span></a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link page-link-2 font-headline text-color-1 text-decoration-none" aria-current="page" href="faq.html"><span>FAQs</span></a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link page-link-2 font-headline text-color-1 text-decoration-none" aria-current="page" href="contact.html"><span>Contact</span></a>
+        </li>
+      </ul>
+    </div>
+  </div>
+  <!-- End Nav2 -->
+  
+  <!-- Mobile Navigation -->
+  <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+    <div class="modal-dialog modal-dialog-centered modal-fullscreen">
+      <div class="modal-content bg-transparent border-0 ">
+  
+        
+  
+        <div class="modal-body font-headline text-center text-white fs-5">
+          <div class="header" style="margin-top: 100px;">
+            <img class="mb-3" src="img/logo/logo-mafi-bet-res.png" preload alt="" srcset="" width="50px">
+            <h3 class="fw-bold font-headline mb-3 border-3 border-bottom pb-3">Malang Film Festival 2023</h3>
+          </div>
+          
+          <ul class="navbar-nav justify-content-lg-start mt-5">
+            <li class="nav-item">
+              <a class="nav-link page-link" aria-current="page" href="index.html"><span>Home</span></a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link page-link" aria-current="page" href="about.html"><span>About Us</span></a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link page-link" aria-current="page" href="#news"><span>News</span></a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link page-link" aria-current="page" href="https://kineklubumm.com"><span>Kine Klub UMM</span></a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link page-link" aria-current="page" href="juree.html"><span>Juree</span></a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link page-link" aria-current="page" href="faq.html"><span>FAQs</span></a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link page-link" aria-current="page" href="contact.html"><span>Contact</span></a>
+            </li>
+            <div class="mt-5">
+              <a class="nav-link register border border-3 border-light rounded py-2 px-3 text-white" href="registrasi-karya.html">
+                Daftarkan Karya Mu!
+              </a>
+            </div>
+            <center class="mt-5">
+              <button type="button" class="btn-close btn-close-white" data-bs-dismiss="modal" id="modalNavClose" aria-label="Close"></button>
+            </center>
+            
+          </ul>
+        </div>
+  
+      </div>
+    </div>
+  </div>
+  <!-- End Mobile Navigation -->
+
+  <script>
+    $(document).ready(function() {
+
+    function checkWidth() {
+      var windowWidth = $(window).width();
+      if (windowWidth <= 960) {
+          $("#nav2").hide();
+          $("#logo-mobile").show();
+      } else {
+          $("#nav2").show();
+          $("#logo-mobile").hide();
+      }
+    }
+    checkWidth();
+
+    $(window).resize(checkWidth);
+    });
+  </script>
+  
+ <script>
+     const li = document.querySelectorAll('.nav-link')[0]
+    li.addEventListener('click', (e)=> {
+        e.preventDefault()
+        alert('Home is Click')
+        window.location.href='/index.html'
+    })
+ </script>
+ 
+
+  <!-- End Mobile Navigation -->
