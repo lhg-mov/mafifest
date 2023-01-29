@@ -1,7 +1,4 @@
-{
-  {
-  "cleanUrls": true
-  },
+
   
   {
     "redirects": [
@@ -13,4 +10,3 @@
     ]
   }
 
-}
