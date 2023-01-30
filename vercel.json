@@ -1,9 +1,7 @@
-[
   {
-    "cleanUrls": {
-      "cleanUrls": true
-    }
-  },
+    "cleanUrls": true
+  }
+
   
   {
     "redirects": [
@@ -11,4 +9,3 @@
       { "source": "/pages/", "destination": "https://mafifest.vercel.app/block" }
     ]
   }
-]
