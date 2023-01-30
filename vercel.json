@@ -1,8 +1,8 @@
 
   {
     "redirects": [
-      { "source": "/pages", "destination": "/index.html" },
-      { "source": "/pages(.*)", "destination": "/index.html", "permanent": false },
+      { "source": "/pages", "destination": "/block" },
+      { "source": "/pages(.*)", "destination": "/", "permanent": false },
       { "source": "/pages", "destination": "https://mafifest.vercel.app/" }
     ]
   }
