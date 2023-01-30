@@ -1,10 +1,8 @@
 [
   {
-    "cleanTheURL": [
-      {
-        "cleanUrls": true
-      }
-    ]
+    "cleanUrls": {
+      "cleanUrls": true
+    }
   },
   
   {
