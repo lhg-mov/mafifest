@@ -1,5 +1,10 @@
 {
-  "source": "/pages(.*)",
-  "destination": "/block",
-  "permanent": "true"
+  "redirects": [
+    { 
+      "source": "/pages(.*)",
+      "destination": "https://mafifest.vercel.app", 
+      "statusCode": 301
+    }
+  ]
 }
+
