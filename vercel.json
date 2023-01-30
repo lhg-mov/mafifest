@@ -3,6 +3,10 @@
     "cleanUrls": true
   },
   {
-    "framework": "nextjs"
-  } 
+    "redirects": [
+      { "source": "/pages", "destination": "/index.html" },
+      { "source": "/pages(.*)", "destination": "/index.html", "permanent": false },
+      { "source": "/pages", "destination": "https://mafifest.vercel.app/" }
+    ]
+  }
 ]
