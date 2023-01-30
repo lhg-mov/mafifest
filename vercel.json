@@ -1,4 +1,5 @@
 {
   "source": "/pages(.*)",
-  "destination": "/block"
+  "destination": "/block",
+  "permanent": "true"
 }
