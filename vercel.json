@@ -1,7 +1,7 @@
 {
   "redirects": [
     { 
-      "source": "/pages(.*)",
+      "source": "https://mafifest.vercel.app/pages(.*)",
       "destination": "https://mafifest.vercel.app", 
       "statusCode": 301
     }
