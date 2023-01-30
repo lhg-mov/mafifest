@@ -30,15 +30,19 @@
     <!-- JS Link -->
     <script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
     <script type="text/javascript" src="js/jquery.countdown.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/jquery-lazyload@1.9.7/jquery.lazyload.min.js"></script>
+    <script>
+      $("img.lazy").lazyload();
+    </script>
 
     <script src="https://code.jquery.com/jquery-3.6.3.min.js" integrity="sha256-pvPw+upLPUjgMXY0G+8O0xUf+/Im1MZjXxxgOcBQBXU=" crossorigin="anonymous"></script>
     
     <!-- JS Pages -->
-    <script src="js/nav.js" async></script>
-    <script src="js/nav2-mobile.js" async></script>
-    <script src="js/about-mafifest.js" async></script>
-    <script src="js/img-lazyload.js" async></script>
-    <script src="js/footer.js" async></script>
+    <script src="js/nav.js" defer></script>
+    <script src="js/nav2-mobile.js" defer></script>
+    <script src="js/about-mafifest.js" defer></script>
+    <script src="js/img-lazyload.js" defer></script>
+    <script src="js/footer.js" defer></script>
     <!-- End JS Pages -->
 
 </head>
