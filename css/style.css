@@ -83,14 +83,14 @@
 }
 
 .bg-absline {
-    background-image: url("/./img/banner/bg-only-3-01.webp");
+    background-image: url("https://ik.imagekit.io/YxqeaZrcDev/MAFIFEST/banner/BG_MAFI_01_yoMceGNUj?ik-sdk-version=javascript-1.4.3&updatedAt=1675047038704");
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
 }
 
 .bg-absline-2 {
-    background-image: url("/./img/banner/bg-only-4-01.webp");
+    background-image: url("https://ik.imagekit.io/YxqeaZrcDev/MAFIFEST/banner/BG_MAFI_02_wScTReoGU?ik-sdk-version=javascript-1.4.3&updatedAt=1675047105110");
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
@@ -242,14 +242,14 @@
 
 @media (max-width: 767.98px) {
     .bg-absline {
-        background-image: url("/./img/banner/bg-only-3-mobile-01.webp");
+        background-image: url("https://ik.imagekit.io/YxqeaZrcDev/MAFIFEST/banner/BG_MOBILE_MAFI_01_lReZ2r6n4?ik-sdk-version=javascript-1.4.3&updatedAt=1675046862457");
         background-position: center;
         background-size: cover;
         background-repeat: no-repeat;
     }
     
     .bg-absline-2 {
-        background-image: url("/./img/banner/bg-only-4-mobile-01.webp");
+        background-image: url("https://ik.imagekit.io/YxqeaZrcDev/MAFIFEST/banner/BG_MOBILE_MAFI_02_SayQKty9j?ik-sdk-version=javascript-1.4.3&updatedAt=1675046934517");
         background-position: center;
         background-size: cover;
         background-repeat: no-repeat;
