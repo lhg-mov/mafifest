@@ -170,6 +170,8 @@
                 document.getElementById("status-message-github").innerHTML = "<div class='alert border-warning border-3 rounded-3 fw-bold font-content' role='alert'>" + "⚠️ There is a Potential Error" + "</div>";
             } else if(data.status.indicator == 'critical') {
                 document.getElementById("status-message-github").innerHTML = "<div class='alert border-danger border-3 rounded-3 fw-bold font-content' role='alert'>" + "⚠️ Sorry, there is a big problem that we are working on" + "</div>";
+            } else if(data.status.indicator == 'maintenance') {
+                document.getElementById("status-message-github").innerHTML = "<div class='alert border-primary border-3 rounded-3 fw-bold font-content' role='alert'>" + "🔧 Under Maintenance" + "</div>";
             }
       }
       });
@@ -192,6 +194,8 @@
                 document.getElementById("status-message-vercel").innerHTML = "<div class='alert border-warning border-3 rounded-3 fw-bold font-content' role='alert'>" + "⚠️ There is a Potential Error" + "</div>";
             } else if(data.status.indicator == 'critical') {
                 document.getElementById("status-message-vercel").innerHTML = "<div class='alert border-danger border-3 rounded-3 fw-bold font-content' role='alert'>" + "⚠️ Sorry, there is a big problem that we are working on" + "</div>";
+            } else if(data.status.indicator == 'maintenance') {
+                document.getElementById("status-message-vercel").innerHTML = "<div class='alert border-primary border-3 rounded-3 fw-bold font-content' role='alert'>" + "🔧 Under Maintenance" + "</div>";
             }
       }
       });
